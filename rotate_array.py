@@ -13,6 +13,13 @@ class Solution:
      
         nums[0 : n] = nums[::-1]
         return nums
+        
+if __name__ == "__main__"
+input_string = input("Enter numbers seperated by spaces")
+k = int(input("Enter a number"))
+arr = list(map(int, input_string().strip().split()))
+ans = Solution()
+print(ans.rotate(arr, k))
 
 
       
